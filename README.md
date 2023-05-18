@@ -1,6 +1,6 @@
 # Azure OpenAI Product Recommender
 
-Implements a content-based filtering recommendation system that matches a user's request to items from a product catalog using the descriptive (textual) information. 
+ [AOAI_Recommendations.ipynb](AOAI_Recommendations.ipynb) implements a content-based filtering recommendation system that matches a user's request to items from a product catalog using the descriptive (textual) information. 
 
 The first step is to generate embeddings for the textual item descriptions from the product catalog (using an Azure OpenAI embeddings model) that are referenced when a recommendation request is received.  
 
